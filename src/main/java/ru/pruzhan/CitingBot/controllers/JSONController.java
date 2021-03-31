@@ -6,10 +6,12 @@ import ru.pruzhan.CitingBot.objects.Message;
 
 public class JSONController {
 
+    //Получение типа события из json-запроса
     public static String getType(String jsonString) {
         return new JSONObject(jsonString).getString("type");
     }
 
+    //Получение данных о сообщении из json-запроса
     public static Message getNewMessage(String jsonString) {
         JSONObject jsonMessage = new JSONObject(jsonString).getJSONObject("object").getJSONObject("message");
         int peer_id = jsonMessage.getInt("peer_id");
