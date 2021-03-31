@@ -1,6 +1,10 @@
 package ru.pruzhan.CitingBot.objects;
 
-//POJO-объект, описывающий сообщение
+/**
+ * POJO-класс, описывающий сообщение
+ * @author Dmitriy Fedrushkov
+ */
+
 public class Message {
 
     private final int user_id;
