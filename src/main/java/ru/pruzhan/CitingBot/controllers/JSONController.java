@@ -3,7 +3,11 @@ package ru.pruzhan.CitingBot.controllers;
 import org.json.JSONObject;
 import ru.pruzhan.CitingBot.objects.Message;
 
-
+/**
+ * Класс обработки JSON-строк
+ * @author Dmitriy Fedrushkov
+ */
+ 
 public class JSONController {
 
     //Получение типа события из json-запроса
