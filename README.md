@@ -7,7 +7,7 @@ Jusi AI test case
 Подробнее - https://vk.com/dev/callback_api, https://vk.com/dev/bots_docs
 2. git clone https://github.com/pruzhan/CitingBot.git
 3. В файле src/main/resources/application.properties указать:
-access_token = *созданный вами ключ доступа*, confirm_code = *строка, которую должен вернуть сервер на вкладке Callback API из п.1*, v = Версия Callback API
+access_token = *созданный вами ключ доступа*, confirm_code = *строка, которую должен вернуть сервер на вкладке Callback API из п.1*, v = *Версия Callback API*
 4. cd CitingBot
 5. mvn clean package
 6. cd target
