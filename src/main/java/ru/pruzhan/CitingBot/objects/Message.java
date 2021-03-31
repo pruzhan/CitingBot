@@ -1,5 +1,6 @@
 package ru.pruzhan.CitingBot.objects;
 
+//POJO-объект, описывающий сообщение
 public class Message {
 
     private final int user_id;
