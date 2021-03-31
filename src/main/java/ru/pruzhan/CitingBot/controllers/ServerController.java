@@ -8,6 +8,11 @@ import ru.pruzhan.CitingBot.objects.Message;
 import java.util.Random;
 import java.util.function.Predicate;
 
+/**
+ * Класс-контроллер сервера, обрабатывающий запросы и генерирующий на них ответ
+ * @author Dmitriy Fedrushkov
+ */
+
 @RestController
 public class ServerController {
     @Value("${access_token}")
